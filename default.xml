@@ -3,6 +3,7 @@
   <remote name="github" fetch="https://github.com"/>
   <remote name="oe" fetch="http://git.openembedded.org"/>
   <remote name="OpenSTLinux" fetch="https://github.com/STMicroelectronics"/>
+  <remote name="ampel" fetch="https://github.com/Ampel-Technologies"/>
   
   <default remote="OpenSTLinux"/>
   
@@ -13,4 +14,5 @@
   <project name="meta-st-stm32mp-addons" path="layers/meta-st/meta-st-stm32mp-addons" revision="40ddfa3c88b8d5e27983761f94f1e1ce3653e97d"/>
   <project name="meta-st-scripts" path="layers/meta-st/scripts" revision="8826802b453ef2ead61b07c7bc5ab525a405df04"/>
   <project name="openembedded-core" path="layers/openembedded-core" remote="oe" revision="cd2b6080a4c0f2ed2c9939ec0b87763aef595048"/>
+  <project name="meta-bsp-xemex-lewiz-2-0" path="layers/meta-bsp-xemex-lewiz-2-0" remote="ampel" revision="84c1324fd3743e42ec24a0db4baf11e220196174"/>
 </manifest>
